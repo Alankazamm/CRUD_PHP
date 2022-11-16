@@ -1,0 +1,73 @@
+/*Na primeira parte do arquivo .css devem aparecer os seletores 'nativos' do sistema de telas */
+acesso   { font-family: TAHOMA, Arial, sans-serif; font-size: 14px; }
+texto    { font-family: TAHOMA, Arial, sans-serif; font-size: 12px; }
+titulo   { font-family: TAHOMA, Arial, sans-serif; font-size: 16px; margin: 5px 0px 0px 5px;}
+/* Agora você deve especificar os restantes seguindo a especificação do projeto */
+
+
+/* Definição das classes do seletor body. As cores devem seguir a especificação do projeto */
+body { font-family: TAHOMA, Arial, sans-serif; }
+body.Abertura  { background-color:#FFDEAD; }
+
+/* Agora faltam as especificações das ações: Incluir, Alterar, Excluir, Consultar e Listar */
+
+button     { background-color:transparent;
+             font-family: TAHOMA, Arial, sans-serif; font-size:14px;
+             /* outros atributos devem ser definidos. Estude a especificação e implemente-os. */
+           }
+
+/* Definição de cor dos botões para as funcionalidades */
+button.ins { background-color:#00FFD9; }
+/* Faça as definições dos outros botoões */
+
+
+
+
+/*Cores usadas neste documento de especificação
+            Abertura                 Incluir                       Consultar                   Alterar                Excluir                 Listar
+Paleta #1: #FFDEAD-Navajo White  |  #00FFD9-Sea Green Crayola  |  #50C4B7-MediumTurquoise  |  #F39D60-Sandy Brown |  #FD6161-Bittersweet  |  #E5A678-Tan Crayola
+Opcionalmente usei a paleta#2, mas o resultado de sobreposição de cores ainda NÃO ficou bom.
+Paleta #2: #FFDEAD-Navajo White  |  #E5B18B-Tumbleweed         |  #9CAB91-Laurel Green     |  #D29588-Middle Red  |  #DD9A69-Tan Crayola  |  #BDC7B5-Ash Gray
+*/
+
+
+/* Arquivos com as especificações CSS. */
+red      { color:red; }
+
+body { font-family: TAHOMA, Arial, sans-serif; }
+body.Abertura  { background-color:#FFDEAD; }
+body.Incluir   { background-color:#00FFD9; }
+body.Consultar { background-color:#50C4B7; }
+body.Alterar   { background-color:#F39D60; }
+body.Excluir   { background-color:#FD6161; }
+body.Listar    { background-color:#E5A678; }
+
+body.Listar table{
+	 border: 1px solid black;
+}
+
+hr{border-color:black;}
+button {background-color:transparent;
+        font-family: TAHOMA, Arial, sans-serif; font-size:14px;
+        color:black;
+        text-align:center;
+        border: none;
+        padding:0px 10px 0px 10px;
+        margin:7px -3px -3px -3px;
+        width:85px; height:23px;
+        cursor:pointer;
+		border-radius: 10px 10px 0px 0px;}
+button.ins {background-color:#00FFD9;}
+button.con {background-color:#50C4B7;}
+button.alt {background-color:#F39D60;}
+button.del {background-color:#FD6161;}
+button.lst {background-color:#E5A678;}
+
+div { top:0; left:0; width:100%; border:none; height:60px;}
+div.menu      { background-color:#FFDEAD; position:static; height:30px;}
+div.Abertura  { background-color:#FFDEAD; position:fixed; }
+div.Incluir   { background-color:#00FFD9; position:fixed; }
+div.Consultar { background-color:#50C4B7; position:fixed; }
+div.Excluir   { background-color:#FD6161; position:fixed; }
+div.Alterar   { background-color:#F39D60; position:fixed; }
+div.Listar    { background-color:#E5A678; position:fixed; }
